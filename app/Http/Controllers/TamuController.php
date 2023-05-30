@@ -121,7 +121,7 @@ class TamuController extends Controller
             'gender' => $request->gender
         ]);
 
-        $url = 'https://sfcerenity.org/public/content/';
+        $url = 'https://summarecon-content.virtualreality-lab.com/';
         return redirect()->away($url);
     }
 }
