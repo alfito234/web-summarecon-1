@@ -40,11 +40,11 @@
                                     data-bs-target="#kunjungan-tab-pane" type="button" role="tab"
                                     aria-controls="kunjungan-tab-pane" aria-selected="false">Kunjungan</button>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            {{-- <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="waktu-tab" data-bs-toggle="tab"
                                     data-bs-target="#waktu-tab-pane" type="button" role="tab"
                                     aria-controls="waktu-tab-pane" aria-selected="false">Waktu</button>
-                            </li>
+                            </li> --}}
                         </ul>
 
                         {{-- Isi tab Tamu --}}
