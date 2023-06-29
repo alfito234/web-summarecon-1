@@ -6,7 +6,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/itdri-dark.png" alt="..." /></a>
+                <a class="navbar-brand" href="#page-top"><img src="{{ asset('/assets/logo-vr.png') }}" alt="..."
+                        style="width: 64px; height: 64px;" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -24,9 +25,6 @@
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#team">Team</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
@@ -36,7 +34,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome To Our Studio!</div>
+                <div class="masthead-subheading">Welcome To Our Tribe!</div>
                 <div class="masthead-heading text-uppercase">VR Lab</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#product">Tell Me More</a>
             </div>
@@ -96,9 +94,6 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Product</h2>
-                    <h3 class="section-subheading text-muted">
-                        Lorem ipsum dolor sit amet consectetur.
-                    </h3>
                 </div>
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -219,105 +214,34 @@
             </div>
         </section>
         <!-- About-->
-        {{-- <section class="page-section" id="about">
+        <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">
-                        Lorem ipsum dolor sit amet consectetur.
-                    </h3>
                 </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." />
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                                    ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                                    quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                                    dolore laudantium consectetur!
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." />
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                                    ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                                    quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                                    dolore laudantium consectetur!
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." />
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                                    ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                                    quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                                    dolore laudantium consectetur!
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." />
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                                    ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                                    quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                                    dolore laudantium consectetur!
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
+                <div class="w-75 mx-auto    ">
+                    <img src="{{ asset('/assets/img/header-bg.jpg') }}" alt="" class="img-fluid rounded-4">
+                </div>
+                <div class="row p-5 gx-5">
+                    <div class="col">
+                        <p>VR Lab adalah inovator dalam teknologi virtual reality (VR). tujuan kami untuk menciptakan
+                            pengalaman VR yang memukau dan menarik perhatian dengan inovasi yang dapat di garap sesuai
+                            dengan kebutuhan penguna.</p>
+                        <p>Dengan tim yang terdiri dari desainer, IT, dan Game dev , Divisi VR Lab mampu menciptakan dunia
+                            virtual yang menakjubkan. Mereka menggabungkan grafis berkualitas tinggi, suara realistis, dan
+                            kontrol yang responsif untuk menghadirkan pengalaman yang tampak nyata.</p>
+                    </div>
+                    <div class="col">
+                        <p>VR Lab adalah inovator dalam teknologi virtual reality (VR). tujuan kami untuk menciptakan
+                            pengalaman VR yang memukau dan menarik perhatian dengan inovasi yang dapat di garap sesuai
+                            dengan kebutuhan penguna.</p>
+                        <p>Dengan tim yang terdiri dari desainer, IT, dan Game dev , Divisi VR Lab mampu menciptakan dunia
+                            virtual yang menakjubkan. Mereka menggabungkan grafis berkualitas tinggi, suara realistis, dan
+                            kontrol yang responsif untuk menghadirkan pengalaman yang tampak nyata.</p>
+                    </div>
+                </div>
             </div>
-        </section> --}}
+        </section>
         <!-- Team-->
         {{-- <section class="page-section bg-light" id="team">
             <div class="container">

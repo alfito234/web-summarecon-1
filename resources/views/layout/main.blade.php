@@ -9,7 +9,7 @@
     <title> {{ $title }}</title>
     <!-- Telkom-->
     @if ($model === 'telkom')
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
         {{-- summarecon --}}
     @elseif ($model == 'summarecon')
         <link rel="icon" type="image/x-icon" href="assets/summarecon-ico.png" />
