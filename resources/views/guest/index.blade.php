@@ -1,7 +1,8 @@
 @extends('layout.main')
 @section('container')
+
     <body class="text-center"
-        style="background-image: url('https://rbasset.s3.ap-southeast-1.amazonaws.com/2021/04/kawasan-Summarecon-Bekasi.jpg'); background-size: 100%">
+        style="background-image: url('https://rbasset.s3.ap-southeast-1.amazonaws.com/2021/04/kawasan-Summarecon-Bekasi.jpg'); background-size: 100%; object-fit:cover;">
         <div class="d-flex justify-content-center align-items-center" style="min-height:100vh">
             <div class="bg-light w-50 p-5 rounded-4" style="--bs-bg-opacity: .75;">
                 <main class="form-signin mb-4">
@@ -41,6 +42,4 @@
         </div>
 
     </body>
-    
 @endsection
-
